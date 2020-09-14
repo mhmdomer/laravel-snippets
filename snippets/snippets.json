@@ -1,0 +1,56 @@
+{
+    "Php public function" : {
+        "prefix": "phpFunc",
+        "body": [
+            "public function ${1:name}(${2:arguments}){",
+            "    ${3://the body of the function}",
+            "}"
+        ],
+        "description": "Generates a public function boilerplate"
+    },
+    "Php private function" : {
+        "prefix": "phpPrivate",
+        "body": [
+            "private function ${1:name}(${2:arguments}){",
+            "    ${3://the body of the function}",
+            "}"
+        ],
+        "description": "Generates a private function boilerplate"
+    },
+    "A hasOne relationship function" : {
+        "prefix": "hasOne",
+        "body": [
+            "public function ${1:name}(){",
+            "    return $this->hasOne(${2:class})",
+            "}"
+        ],
+        "description": "Generates a hasOne relationship function"
+    },
+    "A belongsTo relationship function" : {
+        "prefix": "belongsTo",
+        "body": [
+            "public function ${1:name}(){",
+            "    return $this->belongsTo(${2:class})",
+            "}"
+        ],
+        "description": "Generates a belongsTo relationship function"
+    },
+    "A hasMany relationship function" : {
+        "prefix": "hasMany",
+        "body": [
+            "public function ${1:name}(){",
+            "    return $this->hasMany(${2:class})",
+            "}"
+        ],
+        "description": "Generates a hasMany relationship function"
+    },
+    "A BelongsToMany relationship function" : {
+        "prefix": "belongsToMany",
+        "body": [
+            "private function ${1:name}(){",
+            "    return $this->belongsToMany${2:class}",
+            "}"
+        ],
+        "description": "Generates a belongsToMany relationship function"
+    }
+}

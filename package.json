@@ -1,0 +1,26 @@
+{
+    "name": "laravel-relationship-snippets",
+    "displayName": "laravel relationship snippets",
+    "description": "laravel relationship and php functions snippet",
+    "publisher": "mohammed omer",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/m7md3omer/laravel-relationship-extension"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
