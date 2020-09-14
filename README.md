@@ -25,6 +25,12 @@ This snippet extension allows you to quickly scaffold your relationship code in 
 
 This extension works only with php files.
 
+## Contribution
+
+Feel free to add more snippets related to laravel relationships.
+
+make sure that you checkout to a new feature branch before you start adding your snippets.
+
 ## Release Notes
 
 ### 1.0.0
