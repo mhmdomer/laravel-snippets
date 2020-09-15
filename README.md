@@ -15,6 +15,21 @@ go to the [extension page][1] to install
 
 This snippet extension allows you to quickly scaffold your relationship code in your laravel application models as well as generating regular functions code .
 
+---
+
+|snippet|code generated|
+|:---:|:-----:|
+|phpFunc|Generates a public php function|
+|phpPrivate|Generates a private php function|
+|hasOne|Generates a hasOne relationship|
+|belongsTo|Generates a belongsTo relationship|
+|hasMany|Generates a hasMany relationship|
+|belongsToMany|Generates a belongsToMany relationship|
+|hasManyThrough|Generates a hasManyThrough relationship|
+|hasOneThrough|Generates a hasOneThrough relationship|
+
+---
+
 ![function](https://github.com/m7md3omer/Vscode-extension-laravel-snippets/blob/master/screenshots/screen1.png "function snippet")
 
 ---
