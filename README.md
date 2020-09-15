@@ -13,13 +13,13 @@ go to the [extension page][1] to install
 
 ## Features
 
-This snippet extension allows you to quickly scaffold your relationship code in your laravel application models as well as generating regular functions code. 
+This snippet extension allows you to quickly scaffold your relationship code in your laravel application models as well as generating regular functions code .
 
-![function snippet](screenshots/screen1.png "function snippet")
+![function](https://github.com/m7md3omer/Vscode-extension-laravel-snippets/blob/master/screenshots/screen1.png "function snippet")
 
 ---
 
-![relationship snippet](screenshots/screen2.png "relationship snippets")
+![relationship-snippet](https://github.com/m7md3omer/Vscode-extension-laravel-snippets/blob/master/screenshots/screen2.png "relationship snippets")
 
 ## Requirements
 

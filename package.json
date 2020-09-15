@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/m7md3omer/laravel-relationship-extension"
+        "url": "https://github.com/m7md3omer/Vscode-extension-laravel-snippets"
     },
     "icon": "icon.png",
     "engines": {
