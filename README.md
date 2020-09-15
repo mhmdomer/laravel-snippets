@@ -52,4 +52,8 @@ make sure that you checkout to a new feature branch before you start adding your
 
 Initial release of laravel relationship snippets
 
+### 1.0.1
+
+Added more snippets and fixed some bugs
+
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview
