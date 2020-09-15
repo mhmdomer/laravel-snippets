@@ -17,7 +17,7 @@ This snippet extension allows you to quickly scaffold your relationship code in 
 
 ---
 
-|snippet|code generated|
+|abbreviation|code snippet generated|
 |:---:|:-----:|
 |phpFunc|Generates a public php function|
 |phpPrivate|Generates a private php function|
@@ -51,5 +51,9 @@ make sure that you checkout to a new feature branch before you start adding your
 ### 1.0.0
 
 Initial release of laravel relationship snippets
+
+### 1.0.1
+
+Added more snippets and fixed some bugs
 
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview

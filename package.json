@@ -3,7 +3,7 @@
     "displayName": "laravel relationship snippets",
     "description": "laravel relationship and php functions snippet",
     "publisher": "m7md3omer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/m7md3omer/Vscode-extension-laravel-snippets"
