@@ -1,0 +1,34 @@
+{
+    "Php test function" : {
+        "prefix": "test",
+        "body": [
+            "/** @test */",
+            "public function ${1:name}() {",
+            "    ${3://the body of the function}",
+            "}"
+        ],
+        "description": "Generates a boilerplate for a test function"
+    },
+    "Php feature test class" : {
+        "prefix": "testFeature",
+        "body": [
+            "namespace Tests\\Feature;\n",
+            "use Tests\\TestCase;\n",
+            "class ${2:ClassName} extends TestCase\n{",
+            "   ${3:body}",
+            "}"
+        ],
+        "description": "Generates a boilerplate for a feature test class"
+    },
+    "Php unit test class" : {
+        "prefix": "testUnit",
+        "body": [
+            "namespace Tests\\Unit;\n",
+            "use Tests\\TestCase;\n",
+            "class ${2:ClassName} extends TestCase\n{",
+            "   ${3:body}",
+            "}"
+        ],
+        "description": "Generates a boilerplate for a unit test class"
+    }
+}

@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "laravel-relationship-snippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [1.0.0]
 
 - Initial release
+
+### [1.0.1]
+
+- Added more snippets and fixed some bugs
+
+## [1.1.0]
+
+- Added test functions and classes snippets
