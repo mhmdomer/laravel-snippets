@@ -1,4 +1,4 @@
-# laravel-relationship-snippets README
+# laravel-snippets
 
 ## installation
 
@@ -65,5 +65,9 @@ make sure that you checkout to a new feature branch before you start adding your
 ### 1.1.0
 
 - Added test functions and classes snippets
+
+### 1.1.1
+
+- applied standard code formatting for php
 
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview

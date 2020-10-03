@@ -3,7 +3,7 @@
         "prefix": "test",
         "body": [
             "/** @test */",
-            "public function ${1:name}() {",
+            "public function ${1:name}()\n{",
             "    ${3://the body of the function}",
             "}"
         ],

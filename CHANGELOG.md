@@ -11,3 +11,7 @@
 ## [1.1.0]
 
 - Added test functions and classes snippets
+
+### [1.1.1]
+
+- applied standard code formatting for php
