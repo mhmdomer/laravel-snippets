@@ -32,15 +32,15 @@ This snippet extension allows you to quickly scaffold relationship, test functio
 
 ---
 
-![tests](https://github.com/m7md3omer/Vscode-extension-laravel-snippets/blob/master/screenshots/test.gif "test snippets")
+![tests](https://github.com/m7md3omer/laravel-snippets/blob/master/screenshots/test.gif?raw=true "test snippets")
 
 ---
 
-![function](https://github.com/m7md3omer/Vscode-extension-laravel-snippets/blob/master/screenshots/screen1.png "function snippet")
+![function](https://github.com/m7md3omer/laravel-snippets/blob/master/screenshots/screen2.png?raw=true "function snippet")
 
 ---
 
-![relationship-snippet](https://github.com/m7md3omer/Vscode-extension-laravel-snippets/blob/master/screenshots/screen2.png "relationship snippets")
+![relationship-snippet](https://github.com/m7md3omer/laravel-snippets/blob/master/screenshots/screen2.png?raw=true "relationship snippets")
 
 ## Requirements
 
@@ -66,8 +66,9 @@ make sure that you checkout to a new feature branch before you start adding your
 
 - Added test functions and classes snippets
 
-### 1.1.1
+### 1.1.2
 
 - applied standard code formatting for php
+- added gif and images to extension details
 
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview

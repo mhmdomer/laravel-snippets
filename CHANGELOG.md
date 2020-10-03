@@ -12,6 +12,7 @@
 
 - Added test functions and classes snippets
 
-### [1.1.1]
+### [1.1.2]
 
 - applied standard code formatting for php
+- added gif and images to extension details
