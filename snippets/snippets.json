@@ -57,7 +57,7 @@
         "prefix": "hasManyThrough",
         "body": [
             "public function ${1:name}()\n{",
-            "    return \\$this->hasManyThrough(${2:class1}, ${3:class2});",
+            "    return \\$this->hasManyThrough(${2:relatedClass}, ${3:throughClass});",
             "}"
         ],
         "description": "Generates a hasManyThrough relationship function"
