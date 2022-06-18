@@ -12,31 +12,18 @@ go to the [extension page][1] to install
 
 ## Features
 
-This snippet extension allows you to quickly scaffold relationship, test functions and classes and general functions code in your laravel application models.
+This snippet extension provides you with quick snippets for generating laravel relationship functions.
 
 ---
 
 |  abbreviation  |         code snippet generated          |
 | :------------: | :-------------------------------------: |
-|    phpFunc     |     Generates a public php function     |
-|   phpPrivate   |    Generates a private php function     |
-|      test      |         Generates test function         |
-|  testFeature   |      Generates feature test class       |
-|    testUnit    |        Generates unit test class        |
 |     hasOne     |     Generates a hasOne relationship     |
 |   belongsTo    |   Generates a belongsTo relationship    |
 |    hasMany     |    Generates a hasMany relationship     |
 | belongsToMany  | Generates a belongsToMany relationship  |
 | hasManyThrough | Generates a hasManyThrough relationship |
 | hasOneThrough  | Generates a hasOneThrough relationship  |
-
----
-
-![tests](https://github.com/m7md3omer/laravel-snippets/blob/master/screenshots/test.gif?raw=true "test snippets")
-
----
-
-![function](https://github.com/m7md3omer/laravel-snippets/blob/master/screenshots/screen2.png?raw=true "function snippet")
 
 ---
 
@@ -70,5 +57,11 @@ make sure that you checkout to a new feature branch before you start adding your
 
 - applied standard code formatting for php
 - added gif and images to extension details
+
+### 2.0.0
+
+- removed test snippets and function snippets
+- better description of snippets
+- small bug fixes
 
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview

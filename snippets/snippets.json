@@ -1,22 +1,4 @@
 {
-    "Php public function": {
-        "prefix": "phpFunc",
-        "body": [
-            "public function ${1:name}(${2:arguments})\n{",
-            "    ${3://the body of the function}",
-            "}"
-        ],
-        "description": "Generates a public function boilerplate"
-    },
-    "Php private function": {
-        "prefix": "phpPrivate",
-        "body": [
-            "private function ${1:name}(${2:arguments})\n{",
-            "    ${3://the body of the function}",
-            "}"
-        ],
-        "description": "Generates a private function boilerplate"
-    },
     "A hasOne relationship function": {
         "prefix": "hasOne",
         "body": [
@@ -24,7 +6,7 @@
             "    return \\$this->hasOne(${2:class});",
             "}"
         ],
-        "description": "Generates a hasOne relationship function"
+        "description": "A hasOne relationship function"
     },
     "A belongsTo relationship function": {
         "prefix": "belongsTo",
@@ -33,7 +15,7 @@
             "    return \\$this->belongsTo(${2:class});",
             "}"
         ],
-        "description": "Generates a belongsTo relationship function"
+        "description": "A belongsTo relationship function"
     },
     "A hasMany relationship function": {
         "prefix": "hasMany",
@@ -42,7 +24,7 @@
             "    return \\$this->hasMany(${2:class});",
             "}"
         ],
-        "description": "Generates a hasMany relationship function"
+        "description": "A hasMany relationship function"
     },
     "A BelongsToMany relationship function": {
         "prefix": "belongsToMany",
@@ -51,7 +33,7 @@
             "    return \\$this->belongsToMany(${2:class});",
             "}"
         ],
-        "description": "Generates a belongsToMany relationship function"
+        "description": "A belongsToMany relationship function"
     },
     "A HasManyThrough relationship function": {
         "prefix": "hasManyThrough",
@@ -60,15 +42,15 @@
             "    return \\$this->hasManyThrough(${2:relatedClass}, ${3:throughClass});",
             "}"
         ],
-        "description": "Generates a hasManyThrough relationship function"
+        "description": "A hasManyThrough relationship function"
     },
     "A HasOneThrough relationship function": {
         "prefix": "hasOneThrough",
         "body": [
             "public function ${1:name}()\n{",
-            "    return \\$this->hasOneThrough(${2:class1}, ${3:class2});",
+            "    return \\$this->hasOneThrough(${2:relatedClass}, ${3:throughClass});",
             "}"
         ],
-        "description": "Generates a hasOneThrough relationship function"
+        "description": "A hasOneThrough relationship function"
     }
 }
