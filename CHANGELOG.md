@@ -16,3 +16,9 @@
 
 - applied standard code formatting for php
 - added gif and images to extension details
+
+### [2.0.0]
+
+- removed test snippets and function snippets
+- better description of snippets
+- small bug fixes

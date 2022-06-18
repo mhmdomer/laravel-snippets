@@ -39,29 +39,4 @@ Feel free to add more snippets related to laravel relationships.
 
 make sure that you checkout to a new feature branch before you start adding your snippets.
 
-## Release Notes
-
-### 1.0.0
-
-- Initial release of laravel relationship snippets
-
-### 1.0.1
-
-- Added more snippets and fixed some bugs
-
-### 1.1.0
-
-- Added test functions and classes snippets
-
-### 1.1.2
-
-- applied standard code formatting for php
-- added gif and images to extension details
-
-### 2.0.0
-
-- removed test snippets and function snippets
-- better description of snippets
-- small bug fixes
-
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview
