@@ -3,7 +3,7 @@
     "displayName": "laravel snippets",
     "description": "laravel and php snippets for common functions and classes",
     "publisher": "m7md3omer",
-    "version": "1.1.2",
+    "version": "2.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/m7md3omer/Vscode-extension-laravel-snippets"
