@@ -1,12 +1,12 @@
 {
     "name": "laravel-relationship-snippets",
-    "displayName": "laravel snippets",
-    "description": "laravel and php snippets for common functions and classes",
-    "publisher": "m7md3omer",
+    "displayName": "laravel relationship snippets",
+    "description": "Generates laravel relationship snippets",
+    "publisher": "mhmdomer",
     "version": "2.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/m7md3omer/Vscode-extension-laravel-snippets"
+        "url": "https://github.com/mhmdoemr/Vscode-extension-laravel-snippets"
     },
     "icon": "icon.png",
     "engines": {
