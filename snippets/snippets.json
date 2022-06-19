@@ -51,7 +51,7 @@
             "    return \\$this->hasOneThrough(${2:relatedClass}, ${3:throughClass});",
             "}"
         ],
-        "description": "Generates a hasOneThrough relationship function"
+        "description": "A hasOneThrough relationship function"
     },
     "A MorphOne relationship function": {
         "prefix": "morphOne",
@@ -60,7 +60,7 @@
             "    return \\$this->morphOne(${2:class}, '${1:name}able');",
             "}"
         ],
-        "description": "Generates a morphOne relationship function"
+        "description": "A morphOne relationship function"
     },
     "A MorphTo relationship function": {
         "prefix": "morphTo",
@@ -69,7 +69,7 @@
             "    return \\$this->morphTo(${2});",
             "}"
         ],
-        "description": "Generates a morphTo relationship function"
+        "description": "A morphTo relationship function"
     },
     "A MorphMany relationship function": {
         "prefix": "morphMany",
@@ -78,7 +78,7 @@
             "    return \\$this->morphMany(${2:class}, '${3:nameable}');",
             "}"
         ],
-        "description": "Generates a morphMany relationship function"
+        "description": "A morphMany relationship function"
     },
     "A MorphToMany relationship function": {
         "prefix": "morphToMany",
@@ -87,7 +87,7 @@
             "    return \\$this->morphToMany(${2:class}, '${3:nameable}');",
             "}"
         ],
-        "description": "Generates a morphOne relationship function"
+        "description": "A morphOne relationship function"
     },
     "A MorphByMany relationship function": {
         "prefix": "morphByMany",
@@ -96,6 +96,6 @@
             "    return \\$this->morphByMany(${2:class}, '${3:nameable}');",
             "}"
         ],
-        "description": "Generates a morphByMany relationship function"
+        "description": "A morphByMany relationship function"
     }
 }
