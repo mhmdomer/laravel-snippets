@@ -48,7 +48,7 @@
         "prefix": "hasOneThrough",
         "body": [
             "public function ${1:name}()\n{",
-            "    return \\$this->hasOneThrough(${2:relatedClass}, ${3:throughClass});",
+            "    return \\$this->hasOneThrough(${2:relatedClass}, ${3:throughClass})${4};",
             "}"
         ],
         "description": "A hasOneThrough relationship function"
