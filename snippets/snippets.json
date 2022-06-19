@@ -51,6 +51,51 @@
             "    return \\$this->hasOneThrough(${2:relatedClass}, ${3:throughClass})${4};",
             "}"
         ],
-        "description": "A hasOneThrough relationship function"
+        "description": "Generates a hasOneThrough relationship function"
+    },
+    "A MorphOne relationship function": {
+        "prefix": "morphOne",
+        "body": [
+            "public function ${1:name}()\n{",
+            "    return \\$this->morphOne(${2:class}, '${1:name}able')${3};",
+            "}"
+        ],
+        "description": "Generates a morphOne relationship function"
+    },
+    "A MorphTo relationship function": {
+        "prefix": "morphTo",
+        "body": [
+            "public function ${1:nameable}()\n{",
+            "    return \\$this->morphTo(${2})${3};",
+            "}"
+        ],
+        "description": "Generates a morphTo relationship function"
+    },
+    "A MorphMany relationship function": {
+        "prefix": "morphMany",
+        "body": [
+            "public function ${1:names}()\n{",
+            "    return \\$this->morphMany(${2:class}, '${3:nameable}')${4};",
+            "}"
+        ],
+        "description": "Generates a morphMany relationship function"
+    },
+    "A MorphToMany relationship function": {
+        "prefix": "morphToMany",
+        "body": [
+            "public function ${1:names}()\n{",
+            "    return \\$this->morphToMany(${2:class}, '${3:nameable}')${4};",
+            "}"
+        ],
+        "description": "Generates a morphOne relationship function"
+    },
+    "A MorphByMany relationship function": {
+        "prefix": "morphByMany",
+        "body": [
+            "public function ${1:names}()\n{",
+            "    return \\$this->morphByMany(${2:class}, '${3:nameable}')${4};",
+            "}"
+        ],
+        "description": "Generates a morphByMany relationship function"
     }
 }
