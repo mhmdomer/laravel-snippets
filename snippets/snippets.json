@@ -66,7 +66,7 @@
         "prefix": "morphTo",
         "body": [
             "public function ${1:nameable}()\n{",
-            "    return \\$this->morphTo(${2});",
+            "    return \\$this->morphTo(${2:class});",
             "}"
         ],
         "description": "A morphTo relationship function"
@@ -89,13 +89,13 @@
         ],
         "description": "A morphOne relationship function"
     },
-    "A MorphByMany relationship function": {
-        "prefix": "morphByMany",
+    "A MorphedByMany relationship function": {
+        "prefix": "morphedByMany",
         "body": [
             "public function ${1:names}()\n{",
-            "    return \\$this->morphByMany(${2:class}, '${3:nameable}');",
+            "    return \\$this->morphedByMany(${2:class}, '${3:nameable}');",
             "}"
         ],
-        "description": "A morphByMany relationship function"
+        "description": "A morphedByMany relationship function"
     }
 }
