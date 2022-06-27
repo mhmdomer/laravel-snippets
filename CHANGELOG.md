@@ -22,3 +22,8 @@
 - removed test snippets and function snippets
 - better description of snippets
 - small bug fixes
+
+### [2.1.0]
+
+- Added more snippets
+- small bug fixes
