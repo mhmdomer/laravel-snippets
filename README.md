@@ -4,7 +4,9 @@
 
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-`ext install m7md3omer.laravel-relationship-snippets`
+```bash
+ext install m7md3omer.laravel-relationship-snippets
+```
 
 ### OR
 
@@ -24,6 +26,11 @@ This snippet extension provides you with quick snippets for generating laravel r
 | belongsToMany  | Generates a belongsToMany relationship  |
 | hasManyThrough | Generates a hasManyThrough relationship |
 | hasOneThrough  | Generates a hasOneThrough relationship  |
+|    morphOne    | Generates a morphOne relationship       |
+|    morphTo     | Generates a morphTo relationship        |
+|    morphMany   | Generates a morphMany relationship      |
+|   morphToMany  | Generates a morphToMany relationship    |
+|  morphedByMany | Generates a morphedByMany relationship  |
 
 ---
 
@@ -37,6 +44,6 @@ This extension works only with php files.
 
 Feel free to add more snippets related to laravel relationships.
 
-make sure that you checkout to a new feature branch before you start adding your snippets.
+Make sure that you checkout to a new feature branch before you start adding your snippets.
 
 [1]: https://marketplace.visualstudio.com/items?itemName=m7md3omer.laravel-relationship-snippets&ssr=false#overview
