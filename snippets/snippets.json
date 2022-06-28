@@ -2,7 +2,7 @@
     "A hasOne relationship function": {
         "prefix": "hasOne",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): HasOne\n{",
             "    return \\$this->hasOne(${2:class});",
             "}"
         ],
@@ -11,7 +11,7 @@
     "A belongsTo relationship function": {
         "prefix": "belongsTo",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): BelongsTo\n{",
             "    return \\$this->belongsTo(${2:class});",
             "}"
         ],
@@ -20,7 +20,7 @@
     "A hasMany relationship function": {
         "prefix": "hasMany",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): HasMany\n{",
             "    return \\$this->hasMany(${2:class});",
             "}"
         ],
@@ -29,7 +29,7 @@
     "A BelongsToMany relationship function": {
         "prefix": "belongsToMany",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): BelongsToMany\n{",
             "    return \\$this->belongsToMany(${2:class});",
             "}"
         ],
@@ -38,7 +38,7 @@
     "A HasManyThrough relationship function": {
         "prefix": "hasManyThrough",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): HasManyThrough\n{",
             "    return \\$this->hasManyThrough(${2:relatedClass}, ${3:throughClass});",
             "}"
         ],
@@ -47,7 +47,7 @@
     "A HasOneThrough relationship function": {
         "prefix": "hasOneThrough",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): HasOneThrough\n{",
             "    return \\$this->hasOneThrough(${2:relatedClass}, ${3:throughClass});",
             "}"
         ],
@@ -56,7 +56,7 @@
     "A MorphOne relationship function": {
         "prefix": "morphOne",
         "body": [
-            "public function ${1:name}()\n{",
+            "public function ${1:name}(): MorphOne\n{",
             "    return \\$this->morphOne(${2:class}, '${1:name}able');",
             "}"
         ],
@@ -65,7 +65,7 @@
     "A MorphTo relationship function": {
         "prefix": "morphTo",
         "body": [
-            "public function ${1:nameable}()\n{",
+            "public function ${1:nameable}(): MorphTo\n{",
             "    return \\$this->morphTo(${2:class});",
             "}"
         ],
@@ -74,7 +74,7 @@
     "A MorphMany relationship function": {
         "prefix": "morphMany",
         "body": [
-            "public function ${1:names}()\n{",
+            "public function ${1:names}(): MorphMany\n{",
             "    return \\$this->morphMany(${2:class}, '${3:nameable}');",
             "}"
         ],
@@ -83,7 +83,7 @@
     "A MorphToMany relationship function": {
         "prefix": "morphToMany",
         "body": [
-            "public function ${1:names}()\n{",
+            "public function ${1:names}(): MorphToMany\n{",
             "    return \\$this->morphToMany(${2:class}, '${3:nameable}');",
             "}"
         ],
@@ -92,7 +92,7 @@
     "A MorphedByMany relationship function": {
         "prefix": "morphedByMany",
         "body": [
-            "public function ${1:names}()\n{",
+            "public function ${1:names}(): MorphToMany\n{",
             "    return \\$this->morphedByMany(${2:class}, '${3:nameable}');",
             "}"
         ],
